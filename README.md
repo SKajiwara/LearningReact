@@ -1,3 +1,38 @@
+# Using ESLint Configuration for TypeScript by AirBnb
+Follow this [tutorial](https://andrebnassis.medium.com/setting-eslint-on-a-react-typescript-project-2021-1190a43ffba)
+```
+npm install eslint --save-dev
+npx eslint --init
+    How would you like to use ESLint?
+    Select: To check syntax, find problems, and enforce code style
+    What type of modules does your project use?
+    Select: JavaScript modules (import/export)
+    Which framework does your project use?
+    Select: React
+    Does your project use TypeScript?
+    Select: Yes
+    Where does your code run?
+    Select: Browser
+    How would you like to define a style for your project?
+    Select: Use a popular style guide
+    Which style guide do you want to follow?
+    Select: Airbnb: https://github.com/airbnb/javascript
+    What format do you want your config file to be in?
+    Select: JSON
+    After this, it will check the dependencies that need to be installed and then will ask:
+    Would you like to install them now with npm?
+    Select: Yes
+npx eslint src/*                    to find issues
+npx eslint src/* --fix              to fix some of the issues
+```
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
